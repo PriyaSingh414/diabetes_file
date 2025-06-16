@@ -3,6 +3,15 @@ import numpy as np
 import joblib
 
 
+base = "dark"
+primaryColor = "#1DB954"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#FAFAFA"
+font = "sans serif"
+
+
+
 hide_streamlit_cloud_elements = """
     <style>
     #MainMenu {visibility: hidden;}
